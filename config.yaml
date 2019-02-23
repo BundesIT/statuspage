@@ -56,12 +56,12 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
-    - name: mailserver
+    - name: Mailserver
       description: Der zentrale Mailserver Cluster
-    - name: cloud
+    - name: Cloud
       description: Die "Wolke" der IT
-    - name: forum
-    - name: mgv
+    - name: Forum
+    - name: Mitgliederverwaltung
 
   # What date format to use?
   #

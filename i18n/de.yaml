@@ -14,9 +14,9 @@
 
 # Summary status message
 - id: isDown
-  translation: Hat erhebliche Probleme
+  translation: Erhebliche Probleme
 - id: isDisrupted
-  translation: Es treten Störugnen auf
+  translation: Es treten Störungen auf
 - id: isNotice
   translation: Ankündigung
 - id: isOk

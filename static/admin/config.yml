@@ -31,8 +31,8 @@ collections:
       - {label: "Als Störung markieren", name: "section", widget: "hidden", default: "issue"}
       - {label: "Titel", name: "title", widget: "string"}
       - {label: "Start: Zeit & Datum", name: "date", widget: "datetime"}
-      - {label: "Als behoben markieren", name: "resolved", widget: "boolean", required: false}
-      - {label: "Ende: Zeit & Datum", name: "resolvedWhen", widget: "datetime", required: false}
+      - {label: "Als behoben markieren", name: "resolved", widget: "boolean", default: false}
+      - {label: "Ende: Zeit & Datum", name: "resolvedWhen", widget: "datetime"}
       - label: "Betroffene Systeme (exakte namen verwenden, mit Komma trennen)"
         name: "affected"
         widget: "list"
