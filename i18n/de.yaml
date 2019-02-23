@@ -71,7 +71,7 @@
 - id: incidents
   translation: Ereignisse
 - id: incidentHistory
-  translation: Ereigniss-Historie
+  translation: Ereignis-Historie
 
 - id: resolved
   translation: Behoben # if it's less than a min
@@ -111,7 +111,7 @@
   translation: Powered by
 
 - id: notFound
-  translation: Hier ist nichts zi sehen.
+  translation: Hier ist nichts zu sehen.
 - id: notFoundText
   translation: Where did the link go?
 
