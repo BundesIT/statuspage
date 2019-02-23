@@ -12,6 +12,8 @@
 backend:
   name: github
   repo: BundesIT/statuspage
+  site_domain: relaxed-lewin-ca531e
+
 
 media_folder: "static/img"
 public_folder: "/img"
