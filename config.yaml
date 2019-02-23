@@ -41,7 +41,7 @@ defaultContentLanguage: de
 # Where is the site hosted?
 #
 # Example: https://status.example.com/
-baseURL: https://relaxed-lewin-ca531e.netlify.com
+baseURL: https://itstatus.piratenpartei.de/
 
 ############################################################
 # +------------------------------------------------------+ #
