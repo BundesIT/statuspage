@@ -33,7 +33,7 @@ mkdir gh-pages-branch
   fi
 
   # copy over or recompile the new site
-  cp -a "../out/." .
+  cp -a "../public/." .
 
   # stage any changes and new files
   git add -A
