@@ -2,7 +2,7 @@
 section: issue
 title: Test-Störung
 date: 2019-02-23T14:04:38.227Z
-resolved: false
+resolved: true
 resolvedWhen: 2019-02-27T23:00:00.000Z
 affected:
   - Mailserver
