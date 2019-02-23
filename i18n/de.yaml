@@ -1,0 +1,133 @@
+# English language file for cState
+# Version 3.0
+
+- id: languageCode
+  translation: de
+- id: languageName
+  translation: Deutsch
+- id: languageNameShort
+  translation: GER
+
+##
+## INDEX.HTML
+##
+
+# Summary status message
+- id: isDown
+  translation: Hat erhebliche Probleme
+- id: isDisrupted
+  translation: Es treten Störugnen auf
+- id: isNotice
+  translation: Ankündigung
+- id: isOk
+  translation: Alle Systeme normal
+
+# No JS warning
+- id: noScriptingIntro
+  translation: Uh oh! Es sieht so aus, als ob du JavaScript deaktiver hast. Bitte
+- id: noScriptingLink
+  translation: aktiviere scripting
+- id: noScriptingOutro
+  translation: um diese Seite richtig nutzen zu können.
+
+- id: thisIsDown
+  translation: Down
+- id: thisIsDisrupted
+  translation: Gestört
+- id: thisIsNotice
+  translation: Wartung
+- id: thisIsOk
+  translation: Normal
+
+# "Last checked" + "just now"
+- id: lastChecked
+  translation: "Zuletzt geprüft:"
+- id: justNow
+  translation: gerade eben
+#- id: someTimeAgo
+#  translation: ago
+
+# Example usage: `5` + `years`
+# Final result: 'Last checked 5 years ago'
+# Number goes before string
+# Use short variants until months
+- id: yearsAgo
+  translation: " Jahre"
+- id: monthsAgo
+  translation: " Monate"
+- id: daysAgo
+  translation: " Tage"
+- id: hoursAgo
+  translation: " Stunden"
+- id: minsAgo
+  translation: m
+- id: secondsAgo
+  translation: s
+
+- id: autoRefreshNotice
+  translation: Wir versuchen mindestens alle 5 Minuten zu aktuallisieren
+
+# Incidents
+- id: incidents
+  translation: Ereignisse
+- id: incidentHistory
+  translation: Ereigniss-Historie
+
+- id: resolved
+  translation: Behoben # if it's less than a min
+- id: inUnderAMinute
+  translation: in weniger als einer Minute # continuing the last string
+- id: resolvedAfter
+  translation: Behoben nach # + 19 min
+- id: ofDowntime
+  translation: Ausfall
+
+- id: downtimeOngoing
+  translation: Offen!
+
+
+- id: calmBeforeTheStorm
+  translation: Ist das die Ruhe vor dem Sturm?
+- id: noIncidentsDesc
+  translation: Diese Status-Seite hat noch keine Störungen erfasst.
+
+
+- id: continueReading
+  translation: Weiter lesen
+- id: prev
+  translation: Zurück
+- id: next
+  translation: Weiter
+
+##
+## OTHER
+##
+
+- id: goBack
+  translation: Gehe zurück zu
+- id: backToTop
+  translation: Zurück nach oben
+- id: poweredBy
+  translation: Powered by
+
+- id: notFound
+  translation: Hier ist nichts zi sehen.
+- id: notFoundText
+  translation: Where did the link go?
+
+- id: rss
+  translation: RSS abonnieren
+- id: toAllUpdates
+  translation: für alle Updates
+- id: or
+  translation: or
+- id: onlyThisFeed
+  translation: nur dieser Feed
+
+##
+## v3
+##
+- id: entries
+  translation: Einträge
+- id: newestToOldest
+  translation: neu nach alt
