@@ -1,0 +1,20 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: cibuilds/hugo
+    working_directory: ~/project
+    steps:
+      - checkout
+      - run: git submodule sync
+      - run: git submodule update --init
+      - run:
+          name: "Run Hugo"
+          command: HUGO_ENV=production hugo -v -s ./
+      - run:
+          name: "Test Website"
+          command: htmlproofer ./public --allow-hash-href --check-html --empty-alt-ignore
+      - add_ssh_keys
+      - deploy:
+          name: "Publish Page"
+          command: ./.circleci/deploy-gh-pages.sh
