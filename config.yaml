@@ -1,6 +1,6 @@
 # What is your status page called?
 # Shows up in the browser bar and meta tags
-title: Piratenpartei - IT Status
+title: Piratenpartei – IT-Status
 
 # Should posts, which have a publish date
 # from the future, be built? Useful for
@@ -102,7 +102,7 @@ params:
   # on the footer and meta tags.
   #
   # Default: We continuously monitor the status of our services and if there are any interruptions, a note will be posted here.
-  description: Wir versuchen den Zustand unserer System immer im Auge zu haben. Bekannte Probleme und Wartungen werden hier gemeldet.
+  description: Wir versuchen den Zustand unserer Systeme immer im Auge zu haben. Bekannte Probleme und Wartungen werden hier gemeldet.
 
   # Tabs on homepage
   # Uncomment to enable.

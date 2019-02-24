@@ -24,14 +24,14 @@
 
 # No JS warning
 - id: noScriptingIntro
-  translation: Uh oh! Es sieht so aus, als ob du JavaScript deaktiver hast. Bitte
+  translation: Uh oh! Es sieht so aus, als ob du JavaScript deaktiviert hast. Bitte
 - id: noScriptingLink
-  translation: aktiviere scripting
+  translation: aktiviere JavaScript
 - id: noScriptingOutro
-  translation: um diese Seite richtig nutzen zu können.
+  translation: ", um diese Seite richtig nutzen zu können."
 
 - id: thisIsDown
-  translation: Down
+  translation: Ausfall
 - id: thisIsDisrupted
   translation: Gestört
 - id: thisIsNotice
@@ -41,9 +41,9 @@
 
 # "Last checked" + "just now"
 - id: lastChecked
-  translation: "Zuletzt geprüft:"
+  translation: "Zuletzt geprüft vor:"
 - id: justNow
-  translation: gerade eben
+  translation: wenigen Sekunden
 #- id: someTimeAgo
 #  translation: ago
 
@@ -60,12 +60,12 @@
 - id: hoursAgo
   translation: " Stunden"
 - id: minsAgo
-  translation: m
+  translation: min
 - id: secondsAgo
   translation: s
 
 - id: autoRefreshNotice
-  translation: Wir versuchen mindestens alle 5 Minuten zu aktuallisieren
+  translation: Status wird möglichst alle 5 Minuten aktualisiert
 
 # Incidents
 - id: incidents
@@ -83,7 +83,7 @@
   translation: Ausfall
 
 - id: downtimeOngoing
-  translation: Offen!
+  translation: Ungelöst!
 
 
 - id: calmBeforeTheStorm
@@ -120,7 +120,7 @@
 - id: toAllUpdates
   translation: für alle Updates
 - id: or
-  translation: or
+  translation: oder
 - id: onlyThisFeed
   translation: nur dieser Feed
 

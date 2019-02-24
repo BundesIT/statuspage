@@ -23,7 +23,7 @@ collections:
   - name: "issues"
     label: "Störungen"
     label_singular: "Störung"
-    description: "Willkommen im IT Störungs Pannel. Hier kannst du neue Störung einstellen und bestehende bearbeiten"
+    description: "Willkommen im Störungspanel der PiratenIT. Hier kannst du neue Störungen einstellen und bestehende Störungen bearbeiten."
     folder: "content/issues"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
@@ -33,7 +33,7 @@ collections:
       - {label: "Start: Zeit & Datum", name: "date", widget: "datetime"}
       - {label: "Als behoben markieren", name: "resolved", widget: "boolean", default: false}
       - {label: "Ende: Zeit & Datum", name: "resolvedWhen", widget: "datetime"}
-      - label: "Betroffene Systeme (exakte namen verwenden, mit Komma trennen)"
+      - label: "Betroffene Systeme (exakte Namen verwenden, mit Komma trennen)"
         name: "affected"
         widget: "list"
         required: false
@@ -41,10 +41,10 @@ collections:
         name: "severity"
         widget: "select"
         options:
-          - { label: "Hoch (Down)", value: "down" }
-          - { label: "Mittel (Ausfälle, geht aber noch)", value: "disrupted" }
+          - { label: "Hoch (Ausfall)", value: "down" }
+          - { label: "Mittel (Probleme, geht aber noch)", value: "disrupted" }
           - { label: "Niedrig (Ankündigung)", value: "notice" }
-      - label: "Markdown Text (Reihenfolge der Ereignisse, Beschreibung, post-mortem)"
+      - label: "Markdown-Text (Ablauf der Ereignisse, Beschreibung, Analyse)"
         name: "body"
         widget: "markdown"
-        default: "*Analyse* - Wir analysieren zur Zeit Probleme in unserer Infrastruktur. Sobald wir genaueres wissen, werden wir euch hier informieren."
+        default: "*Analyse* - Wir analysieren zurzeit Probleme in unserer Infrastruktur. Sobald wir genaueres wissen, werden wir euch hier informieren."
