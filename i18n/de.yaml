@@ -44,8 +44,8 @@
   translation: "Zuletzt geprüft vor:"
 - id: justNow
   translation: wenigen Sekunden
-#- id: someTimeAgo
-#  translation: ago
+- id: someTimeAgo
+  translation: ""
 
 # Example usage: `5` + `years`
 # Final result: 'Last checked 5 years ago'
@@ -93,7 +93,7 @@
 
 
 - id: continueReading
-  translation: Weiter lesen
+  translation: Weiterlesen
 - id: prev
   translation: Zurück
 - id: next
